@@ -1,6 +1,6 @@
-import Costs from "./components/Costs";
+import Costs from "./components/costs/Costs";
 
-function App() {
+const App = () => {
 
   const costs = [
     {
@@ -18,7 +18,7 @@ function App() {
       description: "PlayStation 5",
       amount: 399.99
     }
-];
+  ];
 
   return (
     <div>
