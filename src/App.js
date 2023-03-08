@@ -29,6 +29,11 @@ const App = () => {
     console.log("App Component")
   }
 
+  const chooseYearHandler = year => {
+    console.log(year);
+    console.log("App Component")
+  }
+
   return (
     <div>
       <h1>
@@ -36,7 +41,7 @@ const App = () => {
       </h1>
       <h2>Hey there!</h2>
       <NewCost onAddCost={addCostHandler}/>
-      <Costs costs={costs}/>
+      <Costs onChooseYear={chooseYearHandler} costs={costs}/>
     </div>
   );
 }

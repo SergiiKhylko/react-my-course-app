@@ -1,4 +1,4 @@
-import './CostItem.css'
+import './CostItem.css';
 import CostDate from "./CostDate";
 import Card from "../ui/Card";
 
