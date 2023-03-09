@@ -42,10 +42,9 @@ const App = () => {
 
   return (
     <div>
-      <h1>
-        Let's learn React!
+      <h1 className="title">
+        Track your costs
       </h1>
-      <h2>Hey there!</h2>
       <NewCost onAddCost={addCostHandler}/>
       <Costs costs={costs}/>
     </div>
