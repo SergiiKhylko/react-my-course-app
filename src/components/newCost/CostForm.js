@@ -7,12 +7,6 @@ const CostForm = props => {
   const [inputAmount, setInputAmount] = useState('');
   const [inputDate, setInputDate] = useState('');
 
-  // const [userInput, setUserInput] = useState({
-  //   title: "",
-  //   amount: "",
-  //   date: ""
-  // });
-
   const titleChangeHandler = event => {
     setInputTitle(event.target.value);
   };
@@ -29,7 +23,7 @@ const CostForm = props => {
     event.preventDefault();
 
     const costData = {
-      title: inputTitle,
+      description: inputTitle,
       amount: inputAmount,
       date: new Date(inputDate)
     }
@@ -73,6 +67,7 @@ const CostForm = props => {
         </div>
         <div className="new-cost__actions">
           <button type="submit">Add Cost</button>
+          <button type="button" onClick={props.onCancel}>Cancel</button>
         </div>
       </div>
 
