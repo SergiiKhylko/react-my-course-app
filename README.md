@@ -1,3 +1,11 @@
+# Educational project to learn React
+
+the application helps to keep track of expenses. Has a chart to compare expenses by month.
+It has a filter by years
+
+![costs.jpg](costs.jpg)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
